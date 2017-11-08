@@ -36,12 +36,12 @@ In the interest of the safety of our users, staff, the Internet at large and you
 * Highly speculative reports about theoretical damage. Be concrete.
 * Vulnerabilities as reported by automated tools without additional analysis as to how they're an issue.
 * Reports from automated web vulnerability scanners (Acunetix, Vega, etc.) that have not been validated.
-* Recently disclosed 0day vulnerabilities. We need time to patch our systems just like everyone else - please give us 30 days before reporting these types of issues.
-* Issues in third-party services should be reported to the respective team. Please take a look at the "Third-party Services" section for more information.
+* Recently disclosed zero-day vulnerabilities. We need time to patch our systems just like everyone else - please give us 30 days before reporting these types of issues.
+* Issues in third-party services should be reported to the respective team. Please take a look at the "Third-Party Services" section for more information.
 
 The following issue types are excluded from scope:
 
-* Network level Denial of Service (DoS/DDoS) vulnerabilities.
+* Network-level Denial of Service (DoS/DDoS) vulnerabilities.
 * Low severity issues that can be detected with tools such as [Hardenize](https://www.hardenize.com/) and [SecurityHeaders.io](https://securityheaders.io/).
 * XSS issues that affect only [outdated browsers](http://outdatedbrowser.com/).
 * Content injection issues.
@@ -73,8 +73,8 @@ If you are the first to report an issue, and we make a code or configuration cha
 | Low      | 0.1 - 3.9  | Self-XSS      | $10   |
 | None     | 0          | ¯\\\_(ツ)\_/¯ | ¯\\\_(ツ)\_/¯ |
 
-## Third-party Services
+## Third-Party Services
 
-{{ site.company_name }} uses the following third-party services. If you discover an issue make sure to report it to the service's security team.
+{{ site.company_name }} uses the following third-party services. If you discover an issue, please make sure to report it to the service's security team.
 
 <!-- Insert list of third-party services here. -->
