@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A static website template for security pages.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>{{ site.company_name }}</title>
+    <title>{{ site.company_name }} Security</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -32,21 +32,14 @@
     <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
       <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">{{ site.company_name }}</span>
+          <span class="mdl-layout-title"><a style="color: #111; text-decoration:none;" href="{{ site.baseurl }}/"><b>{{ site.company_name }}</b> Security</a></span>
           <div class="mdl-layout-spacer"></div>
-          <!-- Right aligned menu below button -->
-          <button id="demo-menu-lower-right"
-                  class="mdl-button mdl-js-button mdl-button--icon">
-            <i class="material-icons">more_vert</i>
-          </button>
-
-          <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-              for="demo-menu-lower-right">
-            <a href="{{ site.baseurl }}/"><li class="mdl-menu__item">Security Policy</li></a>
-            <a href="{{ site.baseurl }}/report"><li class="mdl-menu__item">Report a Security Issue</li></a>
-            <a href="{{ site.baseurl }}/hof"><li class="mdl-menu__item">Hall of Fame</li></a>
-            <a href="{{ site.baseurl }}/advisories"><li class="mdl-menu__item">Advisories</li></a>
-          </ul> 
+ 	<nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Policy</a>
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/report">Report Issue</a>
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/hof">Hall of Fame</a>
+        <a class="mdl-navigation__link" href="{{ site.baseurl }}/advisories">Advisories</a>
+      </nav>
         </div>
       </header>
       <div class="demo-ribbon"></div>
@@ -60,9 +53,7 @@
         <footer class="demo-footer mdl-mini-footer">
           <div class="mdl-mini-footer--left-section">
             <ul class="mdl-mini-footer--link-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Privacy and Terms</a></li>
-              <li><a href="#">User Agreement</a></li>
+              <li><a href="{{ site.baseurl }}/">{{ site.company_name }} Security Policy</a>, built with <a href="https://github.com/EdOverflow/security-template">Security Template</a></li>
             </ul>
           </div>
         </footer>

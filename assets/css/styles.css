@@ -21,6 +21,10 @@
   flex-shrink: 0;
 }
 
+.mdl-navigation__link {
+  color: #111 !important;
+}
+
 .demo-main {
   margin-top: -35vh;
   flex-shrink: 0;
@@ -56,4 +60,8 @@
 
 .demo-footer .mdl-mini-footer--link-list a {
   font-size: 13px;
+}
+
+h3 {
+  line-height: 20px !important;
 }

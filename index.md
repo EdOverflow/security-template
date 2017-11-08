@@ -18,7 +18,6 @@ If you follow these guidelines when reporting an issue to us, we commit to:
 *   Work with you to understand and resolve the issue quickly (including an initial confirmation of your report within 72 hours of submission).
 
 ## Scope
-
 ### In-scope
 
 * [https://example.com](https://example.com)
@@ -75,6 +74,6 @@ If you are the first to report an issue, and we make a code or configuration cha
 
 ## Third-Party Services
 
-{{ site.company_name }} uses the following third-party services. If you discover an issue, please make sure to report it to the service's security team.
+{{ site.company_name }} uses the following third-party services. If you discover an issue in one of these services, please make sure to report it to the appropriate security team.
 
 <!-- Insert list of third-party services here. -->
