@@ -1,0 +1,2 @@
+# This is a template security.txt file.
+# You can generate your own here: https://securitytxt.org/#generate
