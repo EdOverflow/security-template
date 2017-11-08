@@ -1,7 +1,13 @@
-# security-template
-
-A static website template for security pages.
-
+<div align="center">
+<img align="center" src="https://user-images.githubusercontent.com/4115778/32569683-b5075996-c4b9-11e7-8a60-7412bcd7356b.png" height="200"></img>
+</div>
+<div align="center">
+<b>Static website template for security pages</b>
+<br/>
+Security page creation, made easy.
+<br/>
+<hr/>
+  
 # Structure
 
 _security-template_ uses Jekyll. The template directory structure is as follows:
@@ -43,11 +49,11 @@ This is where you can list your security advisories. The list is updated every t
 
 ## `report.md`
 
-This file should contain contact information for security researchers to use when reporting a security vulnerability. You can use the embedded BugCrowd submission form too. Just comment it out and add your embed token under `bugcrowd_id` in your `_config.yml` file.
+This file should contain contact information for security researchers to use when reporting a security vulnerability. You can use the embedded Bugcrowd submission form too. Just uncomment the form and add your Bugcrowd embed token under `bugcrowd_id` in the `_config.yml` file.
 
 ## `hof.md`
 
-This is your security acknowledgements page. List the details of security researchers that reported valid security issues.
+This is your security acknowledgements page. List the details of security researchers that reported valid security issues and wished to be listed publicly.
 
 ## `.well-known/security.txt`
 
