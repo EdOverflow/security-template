@@ -4,13 +4,13 @@ layout: default
 
 # Policy
 
-Thank you for helping us keep {{ company_name }} users safe! We ask that all researchers:
+Thank you for helping us keep {{ site.company_name }} users safe! We ask that all researchers:
 
 *   Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction of data during security testing;
 *   Perform research only within the scope set out below;
 *   Use the identified communication channels to report vulnerability information to us;
 *   Report vulnerabilities as soon as you discover them;
-*   Keep information about any vulnerabilities you’ve discovered confidential between yourself and {{ company_name }} until we’ve had 90 days to resolve the issue.
+*   Keep information about any vulnerabilities you’ve discovered confidential between yourself and {{ site.company_name }} until we’ve had 90 days to resolve the issue.
 
 If you follow these guidelines when reporting an issue to us, we commit to:
 
@@ -75,6 +75,6 @@ If you are the first to report an issue, and we make a code or configuration cha
 
 ## Third-party Services
 
-{{ company_name }} uses the following third-party services. If you discover an issue make sure to report it to the service's security team.
+{{ site.company_name }} uses the following third-party services. If you discover an issue make sure to report it to the service's security team.
 
 <!-- Insert list of third-party services here. -->
