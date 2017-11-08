@@ -2,13 +2,12 @@
 <img align="center" src="https://user-images.githubusercontent.com/4115778/32569683-b5075996-c4b9-11e7-8a60-7412bcd7356b.png" height="200"></img>
 </div>
 <div align="center">
-Static website template for security pages
 <br/>
 </div>
   
 # Structure
 
-_security-template_ uses Jekyll. The template directory structure is as follows:
+_security-template_ is a static website template for security pages, powered by Jekyll. The template directory structure is as follows:
 
 ```
 .
@@ -36,6 +35,9 @@ _security-template_ uses Jekyll. The template directory structure is as follows:
 ├── README.md
 └── report.md
 ```
+
+![Example policy](https://user-images.githubusercontent.com/4115778/32572136-9d388d50-c4c1-11e7-879c-0de12c411949.png)
+
 
 ## `index.md`
 
