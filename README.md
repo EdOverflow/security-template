@@ -4,6 +4,7 @@
 <div align="center">
 Static website template for security pages
 <br/>
+</div>
   
 # Structure
 
