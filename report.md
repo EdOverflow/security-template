@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Report a security issue
+title: Report a Security Issue
 permalink: /report/
 ---
 
