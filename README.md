@@ -49,7 +49,7 @@ The template directory structure is as follows:
 
 * `company_name` &mdash; replace this with your organization name
 * `email` &mdash; replace this with your security contact address
-* `bugcrowd_id:` &mdash; replace this with your [Bugcrowd ID](https://docs.bugcrowd.com/v1.0/docs/embedded-submission-form), if applicable
+* `bugcrowd_id` &mdash; replace this with your [Bugcrowd ID](https://docs.bugcrowd.com/v1.0/docs/embedded-submission-form), if applicable
 * `hackerone_url` and `bugcrowd_url` &mdash; the <b>/report</b> URL will redirect to one of these, if specified.
 
 ## `index.md`
