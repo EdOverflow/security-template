@@ -62,11 +62,11 @@ This is where you can list your security advisories. The list is updated every t
 
 ## `report.md`
 
-This file should contain contact information for security researchers to use when reporting a security vulnerability. You can use the embedded Bugcrowd submission form too. Just uncomment the form, and add your Bugcrowd embed token under `bugcrowd_id` in the `_config.yml` file.
+This file should contain contact information for security researchers to use when reporting a security vulnerability. If a HackerOne or Bugcrowd URL is specified in `config.yml`, users will be redirected automatically. You can also use an embedded Bugcrowd submission form. Just uncomment the form, and add your Bugcrowd embed token under `bugcrowd_id` in `_config.yml`.
 
 ## `hof.md`
 
-This is your security acknowledgements page. List the details of security researchers that reported valid security issues (and wished to be listed publicly).
+This is your security acknowledgements page. List the details of security researchers that reported valid security issues (and wish to be listed publicly).
 
 ## `.well-known/security.txt`
 
