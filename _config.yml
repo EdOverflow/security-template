@@ -1,11 +1,9 @@
 company_name: Company
 email: security@example.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a default description for SecurityTemplate.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. https://example.com
 bugcrowd_id: # https://docs.bugcrowd.com/v1.0/docs/embedded-submission-form
 
 # Build settings
