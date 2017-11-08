@@ -45,6 +45,13 @@ The template directory structure is as follows:
 ![Example policy](https://user-images.githubusercontent.com/4115778/32572136-9d388d50-c4c1-11e7-879c-0de12c411949.png)
 
 
+## `config.yml`
+
+* `company_name` &mdash; replace this with your organization name
+* `email` &mdash; replace this with your security contact address
+* `bugcrowd_id:` &mdash; replace this with your [Bugcrowd ID](https://docs.bugcrowd.com/v1.0/docs/embedded-submission-form), if applicable
+* `hackerone_url` and `bugcrowd_url` &mdash; the <b>/report</b> URL will redirect to one of these, if specified.
+
 ## `index.md`
 
 The index file is where your security policy lives. To learn more about writing good security policies, please refer to https://support.hackerone.com/hc/en-us/articles/205624665-How-do-we-write-a-good-policy-.
@@ -64,19 +71,3 @@ This is your security acknowledgements page. List the details of security resear
 ## `.well-known/security.txt`
 
 `security-template` contains a security.txt template file. _security.txt_ defines a standard to help organizations define the process for security researchers to safely disclose vulnerabilities via a simple text file. For more on this, please refer to https://securitytxt.org/.
-
-# Contributing
-
-Contributions from the public are welcome.
-
-### Using the issue tracker 💡
-
-The issue tracker is the preferred channel for bug reports and features requests. [![GitHub issues](https://img.shields.io/github/issues/EdOverflow/security-template.svg?style=flat-square)](https://github.com/EdOverflow/security-template/issues)
-
-### Issues and labels 🏷
-
-The bug tracker utilizes several labels to help organize and identify issues.
-
-### Guidelines for bug reports 🐛
-
-Use the GitHub issue search — check if the issue has already been reported.
