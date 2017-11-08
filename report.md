@@ -17,5 +17,7 @@ permalink: /report/
 
 ### Our reporting procedure
 
+To be specified by the {{ site.company_name }} Security Team.
+
 <!--<iframe src="https://bugcrowd.com/{{ bugcrowd_id }}/external/report" style="width: 100%; height: 2480px; border: medium none; overflow: hidden;" scrolling="no" id="iFrameResizer0"></iframe>-->
 {% endif %}
