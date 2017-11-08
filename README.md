@@ -2,11 +2,8 @@
 <img align="center" src="https://user-images.githubusercontent.com/4115778/32569683-b5075996-c4b9-11e7-8a60-7412bcd7356b.png" height="200"></img>
 </div>
 <div align="center">
-<b>Static website template for security pages</b>
+Static website template for security pages
 <br/>
-Security page creation, made easy.
-<br/>
-<hr/>
   
 # Structure
 
