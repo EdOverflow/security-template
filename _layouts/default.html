@@ -36,7 +36,13 @@
           <div class="mdl-layout-spacer"></div>
  		<nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Policy</a>
-        <a class="mdl-navigation__link" href="{{ site.baseurl }}/report">Report Issue</a>
+        {% if site.hackerone_url %}
+          <a class="mdl-navigation__link" href="{{ site.hackerone_url }}">Report Issue</a>
+        {% elsif site.bugcrowd_url %}
+          <a class="mdl-navigation__link" href="{{ site.bugcrowd_url }}">Report Issue</a>
+        {% else %}
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}/report">Report Issue</a>
+        {% endif %}
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/hof">Hall of Fame</a>
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/advisories">Advisories</a>
       </nav>
