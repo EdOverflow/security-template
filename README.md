@@ -5,9 +5,13 @@
 <br/>
 </div>
   
+# Project
+
+_SecurityTemplate_ is a static website template for security pages, powered by Jekyll. It's easy to get started. Clone this repo, edit the configuration files and content to your liking, and publish with [GitHub Pages](https://pages.github.com) or your own server environment.
+
 # Structure
 
-_security-template_ is a static website template for security pages, powered by Jekyll. The template directory structure is as follows:
+The template directory structure is as follows:
 
 ```
 .
