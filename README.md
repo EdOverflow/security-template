@@ -47,15 +47,15 @@ This is where you can list your security advisories. The list is updated every t
 
 ## `report.md`
 
-This file should contain contact information for security researchers to use when reporting a security vulnerability. You can use the embedded Bugcrowd submission form too. Just uncomment the form and add your Bugcrowd embed token under `bugcrowd_id` in the `_config.yml` file.
+This file should contain contact information for security researchers to use when reporting a security vulnerability. You can use the embedded Bugcrowd submission form too. Just uncomment the form, and add your Bugcrowd embed token under `bugcrowd_id` in the `_config.yml` file.
 
 ## `hof.md`
 
-This is your security acknowledgements page. List the details of security researchers that reported valid security issues and wished to be listed publicly.
+This is your security acknowledgements page. List the details of security researchers that reported valid security issues (and wished to be listed publicly).
 
 ## `.well-known/security.txt`
 
-`security-template` contains a security.txt template file. _security.txt_ defines a standard to help organizations define the process for security researchers to securely disclose security vulnerabilities in a simply text file. For more on this, please refer to https://securitytxt.org/.
+`security-template` contains a security.txt template file. _security.txt_ defines a standard to help organizations define the process for security researchers to safely disclose vulnerabilities via a simple text file. For more on this, please refer to https://securitytxt.org/.
 
 # Contributing
 
