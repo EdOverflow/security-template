@@ -68,10 +68,10 @@ If you are the first to report an issue, and we make a code or configuration cha
 | High     | 7.0 - 8.9  | SQLi          | $100  |
 | Medium   | 4.0 - 6.9  | Reflected XSS | $50   |
 | Low      | 0.1 - 3.9  | Self-XSS      | $10   |
-| None     | 0.0 - 0.0  | ¯\\\_(ツ)\_/¯ | ¯\\\_(ツ)\_/¯ |
+| None     | 0.0 - 0.0  | N/A           | N/A   |
 
 ## Third-Party Services
 
-{{ site.company_name }} uses the following third-party services. If you discover an issue in one of these services, please make sure to report it to the appropriate security team.
+{{ site.company_name }} uses the following third-party services. If you discover an issue in one of these services, please  report it to the appropriate security team.
 
 <!-- Insert list of third-party services here. -->
