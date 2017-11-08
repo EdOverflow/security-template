@@ -7,7 +7,9 @@
   
 # Project
 
-_SecurityTemplate_ is a static website template for security pages, powered by Jekyll. It's easy to get started. Clone this repo, edit the configuration files and content to your liking, and publish with [GitHub Pages](https://pages.github.com) or your own server environment.
+_SecurityTemplate_ is a static website template for security pages, powered by Jekyll. It's easy to get started. Clone this repo, edit the configuration files and content to your liking, and publish with [GitHub Pages](https://pages.github.com) or on your own server platform.
+
+You can [set up a local environment](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to test your _SecurityTemplate_ static site, and [push to GitHub](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) if desired.
 
 # Structure
 
