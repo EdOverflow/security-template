@@ -6,4 +6,6 @@ permalink: /report/
 
 # Report a security issue
 
+### Our reporting procedure
+
 <!--<iframe src="https://bugcrowd.com/{{ bugcrowd_id }}/external/report" style="width: 100%; height: 2480px; border: medium none; overflow: hidden;" scrolling="no" id="iFrameResizer0"></iframe>-->

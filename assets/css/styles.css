@@ -17,12 +17,12 @@
 .demo-ribbon {
   width: 100%;
   height: 40vh;
-  background-color: #3DFFD3;
+  background-color: #3d6098;
   flex-shrink: 0;
 }
 
 .mdl-navigation__link {
-  color: #111 !important;
+  color: #333 !important;
 }
 
 .demo-main {
