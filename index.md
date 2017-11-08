@@ -29,9 +29,9 @@ In the interest of the safety of our users, staff, the Internet at large and you
 
 * Findings from physical testing such as office access (e.g. open doors, tailgating).
 * Findings derived primarily from social engineering (e.g. phishing, vishing).
-* Findings from applications or systems not listed in the ‘Scope’ section.
+* Findings from applications or systems not listed in the <i>Scope</i> section.
 * Vulnerability reports with video only PoCs.
-* Reports that state that software is out of date/vulnerable without a proof of concept.
+* Reports that state that software is out of date or vulnerable without a proof of concept.
 * Highly speculative reports about theoretical damage. Be concrete.
 * Vulnerabilities as reported by automated tools without additional analysis as to how they're an issue.
 * Reports from automated web vulnerability scanners (Acunetix, Vega, etc.) that have not been validated.
@@ -41,24 +41,22 @@ In the interest of the safety of our users, staff, the Internet at large and you
 The following issue types are excluded from scope:
 
 * Network-level Denial of Service (DoS/DDoS) vulnerabilities.
-* Low severity issues that can be detected with tools such as [Hardenize](https://www.hardenize.com/) and [SecurityHeaders.io](https://securityheaders.io/).
+* Low severity issues that can be detected with tools such as [Hardenize](https://www.hardenize.com/) and [Security Headers](https://securityheaders.io/).
 * XSS issues that affect only [outdated browsers](http://outdatedbrowser.com/).
 * Content injection issues.
 * Cross-site Request Forgery (CSRF) with minimal security implications (Logout CSRF, etc.).
 * Missing cookie flags on non-security-sensitive cookies.
-* UI and UX bugs and spelling mistakes.
-* [CSV injection](https://www.contextis.com/blog/comma-separated-vulnerabilities).
-* [401 injection](https://security.stackexchange.com/a/135534).
-* Stack traces that disclose information. We are open source so most of this information is already out there.
+* UI and UX bugs (including spelling mistakes).
+* [CSV and Excel injection](https://www.contextis.com/blog/comma-separated-vulnerabilities).
+* [401 page injection](https://security.stackexchange.com/a/135534).
+* Stack traces that disclose information.
 * Host header issues without an accompanying proof-of-concept demonstrating vulnerability.
 * Open ports without an accompanying proof-of-concept demonstrating vulnerability.
 * Banner grabbing issues (figuring out what web server we use, etc.).
 
 ## Reporting
 
-If you believe you’ve found a security vulnerability in one of our products or platforms, please send it to us via our [report form]({{ site.baseurl }}/report).
-
-Please provide detailed reports with reproducible steps. If a report is not detailed enough to reproduce the issue, it will not be eligible for a bounty.
+If you believe you’ve found a security vulnerability in one of our products or platforms, please send it to us via our [report form]({{ site.baseurl }}/report). Please provide detailed reports with reproducible steps. If a report is not detailed enough to reproduce the issue, it will not be eligible for a bounty.
 
 ## Rewards
 
@@ -70,7 +68,7 @@ If you are the first to report an issue, and we make a code or configuration cha
 | High     | 7.0 - 8.9  | SQLi          | $100  |
 | Medium   | 4.0 - 6.9  | Reflected XSS | $50   |
 | Low      | 0.1 - 3.9  | Self-XSS      | $10   |
-| None     | 0          | ¯\\\_(ツ)\_/¯ | ¯\\\_(ツ)\_/¯ |
+| None     | 0.0 - 0.0  | ¯\\\_(ツ)\_/¯ | ¯\\\_(ツ)\_/¯ |
 
 ## Third-Party Services
 

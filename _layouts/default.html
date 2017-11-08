@@ -9,7 +9,7 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="{{ {{ site.baseurl }}/assets/ }}/images/icon.png">
+    <link rel="icon" sizes="192x192" href="{{ site.baseurl }}/assets/ }}/images/icon.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -34,7 +34,7 @@
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title"><a style="color: #111; text-decoration:none;" href="{{ site.baseurl }}/"><b>{{ site.company_name }}</b> Security</a></span>
           <div class="mdl-layout-spacer"></div>
- 	<nav class="mdl-navigation">
+ 		<nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Policy</a>
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/report">Report Issue</a>
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/hof">Hall of Fame</a>
@@ -43,21 +43,22 @@
         </div>
       </header>
       <div class="demo-ribbon"></div>
-      <main class="demo-main mdl-layout__content">
+      <main class="demo-main mdl-layout__content" style="flex: 1 0 auto;">
         <div class="demo-container mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
             {{ content }}
           </div>
         </div>
-        <footer class="demo-footer mdl-mini-footer">
+        
+      </main>
+      <footer class="demo-footer mdl-mini-footer">
           <div class="mdl-mini-footer--left-section">
             <ul class="mdl-mini-footer--link-list">
               <li><a href="{{ site.baseurl }}/">{{ site.company_name }} Security Policy</a>, built with <a href="https://github.com/EdOverflow/security-template">Security Template</a></li>
             </ul>
           </div>
         </footer>
-      </main>
     </div>
   </body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>

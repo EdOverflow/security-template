@@ -63,5 +63,19 @@
 }
 
 h3 {
+  line-height: 15px !important;
+}
+
+h2 {
   line-height: 20px !important;
 }
+
+table { 
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+td { 
+    padding: 5px;
+}
+
