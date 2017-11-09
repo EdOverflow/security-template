@@ -11,6 +11,8 @@ _SecurityTemplate_ is a static website template for security pages, powered by J
 
 You can [set up a local environment](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to test your _SecurityTemplate_ static site, and [push to GitHub](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) if desired.
 
+This project is a rapidly evolving work in progress. We value [contributions](https://github.com/EdOverflow/security-template/blob/master/CONTRIBUTING.md) from the public. Interested in checking out a live demo? Visit [securitytemplate.site](https://securitytemplate.site).
+
 # Structure
 
 The template directory structure is as follows:
