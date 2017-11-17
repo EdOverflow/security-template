@@ -62,13 +62,13 @@ If you believe you’ve found a security vulnerability in one of our products or
 
 If you are the first to report an issue, and we make a code or configuration change based on the issue, we will award you:
 
-| Severity | CVSS       | Example       | Award |
-|:---------|:----------:|:--------------|:------|
-| Critical | 9.0 - 10.0 | RCE           | $500  |
-| High     | 7.0 - 8.9  | SQLi          | $100  |
-| Medium   | 4.0 - 6.9  | Reflected XSS | $50   |
-| Low      | 0.1 - 3.9  | Self-XSS      | $10   |
-| None     | 0.0 - 0.0  | N/A           | N/A   |
+| Severity | CVSS       | Award |
+|:---------|:----------:|:------|
+| Critical | 9.0 - 10.0 | $500  |
+| High     | 7.0 - 8.9  | $100  |
+| Medium   | 4.0 - 6.9  | $50   |
+| Low      | 0.1 - 3.9  | $10   |
+| None     | 0.0 - 0.0  | N/A   |
 
 ## Third-Party Services
 
