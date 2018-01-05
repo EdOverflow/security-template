@@ -73,3 +73,29 @@ This is your security acknowledgements page. List the details of security resear
 ## `.well-known/security.txt`
 
 `security-template` contains a security.txt template file. _security.txt_ defines a standard to help organizations define the process for security researchers to safely disclose vulnerabilities via a simple text file. For more on this, please refer to https://securitytxt.org/.
+
+# Contributing
+
+We welcome contributions from the public.
+
+### Using the issue tracker 💡
+
+The issue tracker is the preferred channel for bug reports and features requests.
+
+### Issues and labels 🏷
+
+The bug tracker utilizes several labels to help organize and identify issues.
+
+### Guidelines for bug reports 🐛
+
+Use the GitHub issue search — check if the issue has already been reported.
+
+# Donations
+
+If you would like to support this project, you can use any of the addresses below:
+
+**Liberapay:** https://liberapay.com/EdOverflow
+
+**Bitcoin:** `1E2fZRNrrkCKPnWpKZAsJzByBoyoBURADN`
+
+**Ethereum:** `0xe98FC23fB4A8762d700c0354979dA5Db6c29Acc3`
