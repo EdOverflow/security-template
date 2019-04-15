@@ -4,6 +4,8 @@
 <div align="center">
 <br/>
 </div>
+
+<a href="https://www.buymeacoffee.com/edoverflow" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
   
 # Project
 
@@ -11,7 +13,7 @@ _SecurityTemplate_ is a static website template for security pages, powered by J
 
 You can [set up a local environment](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to test your _SecurityTemplate_ static site, and [push to GitHub](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/) if desired.
 
-This project is a rapidly evolving work in progress. We value [contributions](https://github.com/EdOverflow/security-template/blob/master/CONTRIBUTING.md) from the public. Interested in checking out a live demo? Visit [securitytemplate.site](https://securitytemplate.site).
+This project is a rapidly evolving work in progress. We value [contributions](https://github.com/EdOverflow/security-template/blob/master/CONTRIBUTING.md) from the public.
 
 # Structure
 
@@ -89,13 +91,3 @@ The bug tracker utilizes several labels to help organize and identify issues.
 ### Guidelines for bug reports 🐛
 
 Use the GitHub issue search — check if the issue has already been reported.
-
-# Donations
-
-If you would like to support this project, you can use any of the addresses below:
-
-**Liberapay:** https://liberapay.com/EdOverflow
-
-**Bitcoin:** `1E2fZRNrrkCKPnWpKZAsJzByBoyoBURADN`
-
-**Ethereum:** `0xe98FC23fB4A8762d700c0354979dA5Db6c29Acc3`
