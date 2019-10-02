@@ -10,6 +10,25 @@ bugcrowd_id: # https://docs.bugcrowd.com/v1.0/docs/embedded-submission-form
 # If you have an external report form, 
 # /report will redirect to that URL.
 # hackerone_url: https://hackerone.com/YOUR_PAGE
+#
+# HackerOne Embedded Form Configuration
+# By setting the hackerone_embed_form field to your program's ID, you can embed a HackerOne
+# submission form in your report page!
+#
+# You can get your HackerOne program's ID by going to Program Settings -> Program tab -> 
+# Select "Integrations" under Automation -> Scroll down and select "Configure" next to "Embedded Submission"
+#
+# Make sure you have added your site's FQDN (Fully Qualified Domain Name) to the Embedded Submission configuration and clicked Save
+# before pasting in the ID
+#
+# You can view the embedded form script under your domains list, you only need the part after the https://hackerone.com/ but before the /embedded_submission
+# So for example the script code might be
+# <script async src="https://hackerone.com/random-characters-here/embedded_submissions/script"
+# data-url="https://hackerone.com/random-characters-here/embedded_submissions/new" data-name="h1-embedded-submission"></script>
+#
+# You only need to copy the random-characters-here part and paste it below.
+#
+# hackerone_embed_form: YOUR_HACKERONE_PROGRAM_ID_HERE
 # bugcrowd_url: https://bugcrowd.com/YOUR_PAGE
 
 # Build settings
