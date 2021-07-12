@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
@@ -52,7 +52,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -69,8 +69,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4.0.0)
-  jekyll-feed (~> 0.12, >= 0.12.0)
+  jekyll (~> 4.0.1)
+  jekyll-feed (~> 0.15, >= 0.15.0)
   minima (~> 2.5, >= 2.5.1)
   tzinfo-data
 
